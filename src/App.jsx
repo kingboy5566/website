@@ -56,23 +56,23 @@ function App() {
 
  
 
- <Carousel fade className='mt-3'>
-      <Carousel.Item>
-      <img src= {laptop4} alt="" className='car'/>
+ <Carousel fade className='mt-3 container  '>
+      <Carousel.Item >
+      <img src= {laptop4} alt="" className='laptop  '/>
         <Carousel.Caption className='text'>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-       <img src={laptop1} alt="" className='car' />
+      <Carousel.Item  >
+       <img src={laptop1} alt="" className='laptop   ' />
         <Carousel.Caption className='text'>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-        <img src={laptop3} alt="" className='car'/>
+      <Carousel.Item  >
+        <img src={laptop3} alt="" className='laptop '/>
         <Carousel.Caption className='text'>
           <h3>Third slide label</h3>
           <p>
@@ -82,10 +82,10 @@ function App() {
       </Carousel.Item>
     </Carousel> 
 
-    <div className='container d-flex'>
-         <div className='child1 col-6 '>
-
-                <h1 className=' text1 '>Before they sold out
+<div className="container mt-5">
+  <div className='row '>
+    <div className=' child1 col-lg-6 col-md-8 col-sm-4'>
+    <h1 className=' text1 '>Before they sold out
                    <br />
                         readymade gluten
                                </h1>
@@ -94,18 +94,14 @@ function App() {
                   <p className='pera mt-2 '> Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
         plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk
         tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard
-        chambray.</p>  <br />      
-        <Button variant="primary btn1">Button</Button>{' '}
-        <Button variant="secondary mx-1 ">Button</Button>{' '}
-        
-         </div>
-
-
-         <div className='child2 col-5 '>
-          <img src={car} alt="" />
-         </div>
+        chambray.</p>  <br /> 
+            <center>
+        <Button variant="primary ">Button</Button>{' '}
+        <Button variant="secondary mx-1 ">Button</Button>{' '}</center> 
     </div>
- 
+    <div className=' child2 col-lg-6  col-md-4 col-sm-4'><img src={car} alt="" className='imaf-fluid ' /></div>
+  </div>
+</div>
 
     <CardGroup className='mt-5 container'>
       <Card className='m-1'>
